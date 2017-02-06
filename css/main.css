@@ -50,7 +50,81 @@ a.logo span:first-child {
 	border-bottom: 3px solid #fff;
 	cursor: pointer;
 }
+/*contact section*/
+#contact {
+	background-color: grey;
+	background-position: 50%;
+	height: 300px;
+	padding: 100px;
+	float: left;
 
-body {
+}
+
+form > input,
+form > textarea {
+	background-color: white;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
 	color: black;
+	display:inline;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 10px;
+	width: 70%;
+}
+
+form span {
+	color: pink;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+form button {
+	background-color: grey;
+	border: none;
+	border-radius: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 25px 0 0 50px;
+	padding: 10px 25px;
+
+}
+
+button {
+	float: left;
+}
+
+
+/*footer*/
+.footer {
+	background-color: pink;
+	padding: 0;
+	height: 0;
+	padding-left: 0;
+}
+
+.footer p {
+	float: left;
+	margin: 20px 75px 0 0;
+
+}
+#socialMedia {
+	float: right;
+	margin: 20px 75px 0 0;
+
+}
+
+#socialMedia a {
+	border-radius: 2px;
+	background-color: #15a4fa;
+	color: grey;
+	margin: 5px;
+	padding: 7px;
+	text-decoration: none;
+
+}
+#socialMedia a: first-child {
+	padding: 7px 9px;
+
 }
