@@ -1,3 +1,49 @@
+body {
+	color: black;
+	background-color: #EBEBEB;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+.img {
+	text-align:center;
+}
+.headertext {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+.mywork {
+	text-align:center;
+	float:right;
+	padding-right: 20px;
+	padding-bottom: 100px; 
+    height: 70px;
+    width: 600px;
+	display: block;
+	position: relative;
+	background-color: #EBEBEB;
+
+}
+
+.aboutme {
+	text-align:center;
+	float:left;
+	position: relative;
+	margin-left: 20px;
+	padding-left: 50px;
+	padding-bottom: 100px;
+	padding-right: 20px;
+    height: 70px;
+    width: 600px;
+    background-color: #EBEBEB;
+}
+.aboutme h5 {
+	font-family: 'Pacifico', cursive;
+
+}
+.mywork h5 {
+	font-family: 'Pacifico', cursive;
+
+}
 
 nav {
 	background-color: #EBEBEB;
@@ -8,6 +54,11 @@ nav {
 	width: 100%;
 	z-index: 100;
 	text-decoration: none;
+
+}
+
+nav h2 {
+	font-family: 'Pacifico', cursive;
 
 }
 
@@ -53,7 +104,9 @@ a.logo span:first-child {
 /*contact section*/
 #contact {
 	background-color: grey;
-	background-position: 50%;
+	color: pink;
+	font-family: 'Pacifico', cursive;
+	display: inline-block;
 	height: 300px;
 	padding: 100px;
 	float: left;
@@ -62,6 +115,7 @@ a.logo span:first-child {
 
 form > input,
 form > textarea {
+	font-family: 'Titillium Web', sans-serif;
 	background-color: white;
 	border-radius: 2px;
 	border: 1px solid #f6f9f9;
@@ -83,11 +137,13 @@ form span {
 form button {
 	background-color: grey;
 	border: none;
+	font-family: 'Pacifico', cursive;
 	border-radius: none;
 	color: #fff;
 	cursor: pointer;
-	margin: 25px 0 0 50px;
-	padding: 10px 25px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
 
 }
 
@@ -95,13 +151,59 @@ button {
 	float: left;
 }
 
+/*portfolio*/
+#work {
+	background-color: #EBEBEB;
+	font-weight: 400;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#work h3 {
+	font-family: 'Pacifico', cursive;
+	color: pink;
+	font-size: 20px;
+	margin: 0;
+
+}
+
+#work p {
+	color: black;
+	font-size: 12px;
+	margin: 0;
+}
+
+#work .box {
+	display: inline-block;
+	font-weight: 400;
+	margin: 2% 1% 0%;
+	padding: 10px;
+	width: 25%;
+}
+#work img {
+	background-color:white;
+	height: 100%;
+	width: 100%;
+
+}
+h5 {
+	text-align: center;
+	color: pink;
+
+}
+h3 {
+	text-align: center;
+	color:pink;
+}
 
 /*footer*/
 .footer {
-	background-color: pink;
-	padding: 0;
+	background-color: grey;
+	position: relative;
 	height: 0;
-	padding-left: 0;
+	display: inline-block;
+	padding: 100px;
+	float: left;
 }
 
 .footer p {
@@ -110,15 +212,19 @@ button {
 
 }
 #socialMedia {
-	float: right;
-	margin: 20px 75px 0 0;
+	float: left;
+	background-color: grey;
+	margin: 0;
+	padding-top: 276px;
+    padding-bottom: 207px;
+    padding-left: 305px;
 
 }
 
 #socialMedia a {
 	border-radius: 2px;
-	background-color: #15a4fa;
-	color: grey;
+	background-color: grey;
+	color: pink;
 	margin: 5px;
 	padding: 7px;
 	text-decoration: none;
